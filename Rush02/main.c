@@ -6,7 +6,7 @@
 /*   By: jperez <jperez@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/17 20:35:04 by jperez            #+#    #+#             */
-/*   Updated: 2022/07/17 22:46:00 by jperez           ###   ########.fr       */
+/*   Updated: 2022/09/23 11:45:45 by lbarrene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int	ft_args_ok(int argc, char **argv, char **input)
 	}
 	else
 	{
-		ft_print_error();
+		ft_print_error(); 
 		return (0);
 	}
 }

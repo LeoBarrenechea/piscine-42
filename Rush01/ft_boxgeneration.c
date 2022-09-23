@@ -6,7 +6,7 @@
 /*   By: eescubi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/09 19:37:42 by eescubi           #+#    #+#             */
-/*   Updated: 2022/07/09 19:37:43 by eescubi          ###   ########.fr       */
+/*   Updated: 2022/09/23 11:45:08 by lbarrene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_boxgeneration(int box[6][6], int nside, int rowcol[], int value)
 		else
 		{
 			rowcol[0]++;
-			ft_boxgeneration(box, nside, rowcol, value);
+			ft_boxgeneration(box, nside, rowcol, value); 
 		}
 	}
 }
